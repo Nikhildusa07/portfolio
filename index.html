@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikhil Dusa - Portfolio</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-gray-800 shadow-md p-4 flex justify-between items-center z-50">
+    <h1 class="text-2xl font-bold">Nikhil Dusa</h1>
+    <div class="space-x-6 flex items-center">
+      <a href="#home" class="hover:text-blue-400">Home</a>
+      <a href="#projects" class="hover:text-blue-400">Projects</a>
+      <a href="#resume" class="hover:text-blue-400">Resume</a>
+      <a href="#experience" class="hover:text-blue-400">Experience</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+      <a href="https://github.com/Nikhildusa07" target="_blank" class="hover:text-gray-400">
+        <i class="fab fa-github text-2xl"></i>
+      </a>
+      <a href="Nikhil CV.pdf" download class="bg-blue-500 px-3 py-1 rounded hover:bg-blue-600">Download Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4" data-aos="fade-up">
+    <h2 class="text-5xl font-bold mb-4">Hi, I'm Nikhil Dusa 👋</h2>
+    <p class="text-lg text-gray-300 max-w-xl">
+      <span id="typed-text"></span>
+    </p>
+  </section>
+
+  <!-- Projects (Auto-fetch) -->
+  <section id="projects" class="py-20 px-6 bg-gray-800" data-aos="fade-up">
+    <h3 class="text-3xl font-bold text-center mb-10">My  Projects</h3>
+    <div id="projects-container" class="grid md:grid-cols-3 gap-6">
+      <!-- Projects load via JS -->
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="py-20 px-6 bg-gray-900" data-aos="fade-up">
+    <h3 class="text-3xl font-bold text-center mb-10">My Resume</h3>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
+      <!-- Left Column -->
+      <div class="space-y-6">
+        <h4 class="text-xl font-bold mb-4">Education</h4>
+        <div class="border-l-2 border-blue-500 pl-4 space-y-4">
+          <div>
+            <h5 class="font-semibold text-lg">B.Tech in AIML</h5>
+            <p class="text-gray-400">Trinity College of Engineering & Technology (2023–2026)</p>
+          </div>
+          <div>
+            <h5 class="font-semibold text-lg">Diploma in EEE</h5>
+            <p class="text-gray-400">Govt. Polytechnic College, Narayankhed (2019–2022)</p>
+          </div>
+        </div>
+        <h4 class="text-xl font-bold mt-8 mb-4">Contact</h4>
+        <div class="flex space-x-4">
+          <a href="mailto:dusanikhil3@gmail.com" class="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
+            <i class="fas fa-envelope text-white text-xl"></i>
+          </a>
+          <a href="https://linkedin.com/in/nikhil-dusa-71089b1a7" target="_blank" class="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
+            <i class="fab fa-linkedin text-white text-xl"></i>
+          </a>
+          <a href="https://github.com/Nikhildusa07" target="_blank" class="bg-gray-800 p-3 rounded-full hover:bg-blue-500 transition">
+            <i class="fab fa-github text-white text-xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div>
+        <h4 class="text-xl font-bold mb-4">Technical Skills</h4>
+        <div class="space-y-4">
+          <div><p class="text-gray-300 mb-1">Python</p><div class="w-full bg-gray-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full w-5/6"></div></div></div>
+          <div><p class="text-gray-300 mb-1">Java</p><div class="w-full bg-gray-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full w-2/3"></div></div></div>
+          <div><p class="text-gray-300 mb-1">JavaScript</p><div class="w-full bg-gray-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full w-2/3"></div></div></div>
+          <div><p class="text-gray-300 mb-1">HTML & CSS</p><div class="w-full bg-gray-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full w-4/5"></div></div></div>
+          <div><p class="text-gray-300 mb-1">MongoDB & MySQL</p><div class="w-full bg-gray-700 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full w-1/2"></div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-10">
+      <a href="Nikhil CV.pdf" download class="bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-3 rounded-full text-white text-lg shadow-lg hover:opacity-90 transition">
+        View Full Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- Experience & Certifications -->
+  <section id="experience" class="py-20 px-6 bg-gray-800" data-aos="fade-up">
+    <h3 class="text-3xl font-bold text-center mb-10">Experience & Certifications</h3>
+    <div class="max-w-5xl mx-auto">
+      <!-- Internships -->
+      <h4 class="text-2xl font-bold mb-4">Internships</h4>
+      <ul class="list-disc pl-6 text-gray-300 mb-10">
+        <li><strong>AI/ML Intern</strong> at Code-Tech It solutions private Ltd – Developed and trained ML&Dl models for real-world applications using Python(APR 2025 - MAY 2025).</li>
+        <li><strong>Web Development Intern</strong> at Skill Intern  – Developed and deployed responsive web applications using HTML, CSS, JavaScript, and React. (NOV 2024 - APR 2025).</li>
+      </ul>
+
+      <!-- Certifications -->
+      <h4 class="text-2xl font-bold mb-4">Certifications</h4>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-700 p-4 rounded-lg shadow hover:scale-105 transition cursor-pointer" onclick="openModal('assets/1.jpg')">
+          <h5 class="font-bold text-lg mb-2">AI/Ml Internship Certificate</h5>
+          <p class="text-gray-400 text-sm">Issued by: Code Tech It solutions </p>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg shadow hover:scale-105 transition cursor-pointer" onclick="openModal('assets/2.jpg')">
+          <h5 class="font-bold text-lg mb-2">Web Development Internship Certificate</h5>
+          <p class="text-gray-400 text-sm">Issued by: Skill Intern</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 text-center" data-aos="fade-up">
+    <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+    <p class="text-gray-300 mb-4">Have a project idea or want to collaborate? Reach out to me!</p>
+    <a href="mailto:dusanikhil3@gmail.com" class="bg-blue-500 px-6 py-3 rounded hover:bg-blue-600">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-4">
+    <p>&copy; 2025 Nikhil Dusa. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Certificate Modal -->
+  <div id="certificate-modal" class="fixed inset-0 bg-black bg-opacity-80 hidden justify-center items-center z-50">
+    <div class="relative max-w-3xl">
+      <img id="modal-image" src="" alt="Certificate" class="rounded-lg shadow-lg max-h-[80vh]">
+      <button onclick="closeModal()" class="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full">X</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
