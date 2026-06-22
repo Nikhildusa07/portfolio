@@ -28,7 +28,8 @@ HTML5
 CSS3
 JavaScript
 
-##LIVE DEMO : 
+
+LIVE DEMO : 
 https://nikhildusa07.github.io/portfolio/
 
 
