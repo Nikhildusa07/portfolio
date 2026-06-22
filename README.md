@@ -28,6 +28,9 @@ HTML5
 CSS3
 JavaScript
 
+##LIVE DEMO : 
+https://nikhildusa07.github.io/portfolio/
+
 
 ⚙️ Installation & Setup:
 
@@ -46,8 +49,6 @@ Navigate through sections (Home, About, Projects, Contact)
 Explore projects and details
 Use contact section to connect
 
-
-🚀 Future Improvements:
 
 
 🌙 Dark mode support
