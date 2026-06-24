@@ -3,7 +3,7 @@ AOS.init({ duration: 1000, once: true });
 
 // Typing animation
 new Typed("#typed-text", {
-  strings: ["AI/ML Engineer", "Full-Stack Developer", "Tech Enthusiast"],
+  strings: ["AI/ML Engineer", "Full-Stack Developer"],
   typeSpeed: 70,
   backSpeed: 50,
   loop: true
